@@ -1,0 +1,69 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 06-Sept-2023, 2:36:02 pm
+    Author     : Admin
+*/
+*
+{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}.enjoys
+{
+    margin-top: 50px;
+    border-radius: 25px;
+    margin-left: 100px;
+    padding: 10px;
+    background-color:rgb(229, 177, 110);
+    width: 500px;
+    text-align: center;
+    font-family: cursive;
+}
+.logindipar
+{
+    width:550px;
+    padding: 10px 100px 0px 125px;
+}
+.logindi
+{
+    border: 5px solid tomato;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    width: 450px;
+    padding: 30px 50px 20px 50px;
+}
+.logindi label
+{
+    font-size: 25px;
+}
+.logindi input
+{
+    font-size: large;
+    height: 50px;
+    width: 300px;
+}
+.logindi ::placeholder
+{
+    font-size: 20px;
+}
+input[type=submit]
+{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.logindi a
+{
+    text-decoration: none;
+}

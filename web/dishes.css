@@ -1,0 +1,152 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 06-Sept-2023, 11:38:10 pm
+    Author     : Admin
+*/
+*{
+    
+    box-sizing: border-box;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.box {
+    width: calc(25% - 20px);  
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-right: 20px; 
+}
+.box h2
+{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(246, 5, 206);
+}
+.box img {
+    max-width: 100%;
+    height: 220px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.myButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+fieldset
+{
+    margin-top: 3px;
+    border: 2px solid #ff1500;
+    font-size: 35px;
+    background-color: bisque;
+}
+legend
+{
+    color: rgb(4, 36, 240);
+}
+a
+{
+    text-decoration: none;
+    font-size: 20px;
+}
+.box span
+{
+    color: blue;
+}
+#cart {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#cart th, #cart td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+#cart th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+/* Style the increment and decrement buttons */
+.increment, .decrement {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Position the "Total Amount" */
+tfoot td {
+    text-align: right;
+}
+
+/* Style the "Total Amount" value */
+#totalAmount {
+    font-weight: bold;
+    color: #007BFF;
+    margin-right: 20px;
+}
+
+/* Add a hover effect for item boxes */
+.box:hover {
+    background-color: #f0f0f0;
+}
+#cart-items {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Add border to table headers */
+#cart-items th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Add border to table rows */
+#cart-items td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Highlight the header row with a different background color */
+#cart-items th {
+    background-color: #f2f2f2;
+}
+.paybill{
+    margin-left: 500px;
+    padding: 20px;
+    color: orange;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+

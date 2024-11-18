@@ -1,0 +1,71 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 06-Sept-2023, 11:37:46 pm
+    Author     : Admin
+*/
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.back
+{
+    border: 2px solid black;
+    height: 747px;
+    background-image: url(backgroundimage6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back h1{
+    margin-left: 50px;
+    margin-top: 70px;
+    font-size: 68px;
+    color: white;
+}
+.para
+{
+    font-size: 30px;
+    background-color: bisque;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 350px;
+    margin-top: 80px;
+    margin-left: 100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.para2
+{
+    font-size: 30px;
+    background-color: bisque;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 350px;
+    margin-left: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.category
+{
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: rgb(229, 177, 110);
+    width: 400px;
+    height: 300px;
+}
+.categ
+{
+    list-style: none;
+    padding: 30px;
+}
+.categ li
+{
+    padding-left: 20px;
+}
+.categ li a{
+    font-size: 35px;
+    text-decoration: none;
+    color: red;
+}
